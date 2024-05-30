@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('brown-wallpaper-with-retro-watch-design_1308-18196.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    overflow: hidden;
+}
+
+.clock {
+    font-size: 6rem;
+    background: rgba(0, 0, 0, 0.7); /* Adjusted opacity for better visibility */
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.clock:hover {
+    transform: scale(1.05);
+}
+
+.clock span {
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+    color: #00ccff; /* Soft blue */
+    text-shadow: 0 0 10px rgba(0, 204, 255, 0.7);
+}
+
